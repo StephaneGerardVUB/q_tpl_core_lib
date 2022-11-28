@@ -1,1 +1,1 @@
-# Quattor template library core
+# Quattor Template Library Core
