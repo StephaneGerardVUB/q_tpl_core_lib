@@ -1,0 +1,1 @@
+# Quattor template library core
