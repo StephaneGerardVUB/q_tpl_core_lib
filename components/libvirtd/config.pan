@@ -11,14 +11,14 @@
 
 # 
 # #
-# libvirtd, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
+# libvirtd, 21.12.1-SNAPSHOT, SNAPSHOT20221129164121, Tue Nov 29 2022
 #
 
 unique template components/libvirtd/config;
 
 include 'components/libvirtd/schema';
 
-'/software/packages'=pkg_repl('ncm-libvirtd','21.12.1-SNAPSHOT20221129120252','noarch');
+'/software/packages'=pkg_repl('ncm-libvirtd','21.12.1-SNAPSHOT20221129164121','noarch');
 '/software/components/libvirtd/dependencies/pre' ?=  list ('spma');
 
 '/software/components/libvirtd/active' ?= true;

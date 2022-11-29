@@ -14,7 +14,7 @@
 #
 
 # #
-# gsissh, 21.12.1-SNAPSHOT, SNAPSHOT20221129120954, Tue Nov 29 2022
+# gsissh, 21.12.1-SNAPSHOT, SNAPSHOT20221129164823, Tue Nov 29 2022
 #
 
 unique template components/gsissh/config-rpm;
@@ -25,6 +25,6 @@ include 'components/gsissh/config-common';
 prefix '/software/components/gsissh';
 
 # Install Quattor configuration module via RPM package.
-'/software/packages' = pkg_repl('ncm-gsissh', '21.12.1-SNAPSHOT20221129120954', 'noarch');
+'/software/packages' = pkg_repl('ncm-gsissh', '21.12.1-SNAPSHOT20221129164823', 'noarch');
 'dependencies/pre' ?= list('spma');
 

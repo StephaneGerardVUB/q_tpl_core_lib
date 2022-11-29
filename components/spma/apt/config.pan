@@ -18,7 +18,7 @@ unique template components/spma/apt/config;
 
 prefix '/software';
 
-'packages' = pkg_repl("ncm-spma", "21.12.1-SNAPSHOT20221129120252", "noarch");
+'packages' = pkg_repl("ncm-spma", "21.12.1-SNAPSHOT20221129164121", "noarch");
 
 prefix '/software/components/spma';
 

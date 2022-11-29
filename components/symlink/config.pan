@@ -17,7 +17,7 @@ include 'components/symlink/schema';
 
 bind '/software/components/symlink' = symlink_component;
 
-'/software/packages' = pkg_repl('ncm-symlink', '21.12.1-SNAPSHOT20221129120252', 'noarch');
+'/software/packages' = pkg_repl('ncm-symlink', '21.12.1-SNAPSHOT20221129164121', 'noarch');
 
 include if_exists('components/symlink/site-config');
 

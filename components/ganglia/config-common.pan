@@ -14,7 +14,7 @@
 #
 
 # #
-# ganglia, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
+# ganglia, 21.12.1-SNAPSHOT, SNAPSHOT20221129164121, Tue Nov 29 2022
 #
 
 unique template components/ganglia/config-common;
@@ -24,7 +24,7 @@ include 'components/ganglia/schema';
 # Set prefix to root of component configuration.
 prefix '/software/components/ganglia';
 
-#'version' = '21.12.1-SNAPSHOT20221129120252';
+#'version' = '21.12.1-SNAPSHOT20221129164121';
 'package' = 'NCM::Component';
 
 'active' ?= true;

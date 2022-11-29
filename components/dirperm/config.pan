@@ -11,7 +11,7 @@
 
 # 
 # #
-# dirperm, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
+# dirperm, 21.12.1-SNAPSHOT, SNAPSHOT20221129164121, Tue Nov 29 2022
 #
 
 unique template components/dirperm/config;
@@ -19,7 +19,7 @@ unique template components/dirperm/config;
 include "components/dirperm/schema";
 
 # Package to install
-"/software/packages" = pkg_repl("ncm-dirperm", "21.12.1-SNAPSHOT20221129120252", "noarch");
+"/software/packages" = pkg_repl("ncm-dirperm", "21.12.1-SNAPSHOT20221129164121", "noarch");
 
 prefix '/software/components/dirperm';
 

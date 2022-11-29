@@ -11,7 +11,7 @@
 
 # 
 # #
-# interactivelimits, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
+# interactivelimits, 21.12.1-SNAPSHOT, SNAPSHOT20221129164121, Tue Nov 29 2022
 #
 
 unique template components/interactivelimits/config;
@@ -23,7 +23,7 @@ bind "/software/components/interactivelimits" = component_interactivelimits_type
 include 'pan/functions';
 
 # Package to install.
-"/software/packages" = pkg_repl("ncm-interactivelimits", "21.12.1-SNAPSHOT20221129120252", "noarch");
+"/software/packages" = pkg_repl("ncm-interactivelimits", "21.12.1-SNAPSHOT20221129164121", "noarch");
 
 # Set prefix to root of component configuration.
 prefix '/software/components/interactivelimits';

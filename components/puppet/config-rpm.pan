@@ -11,7 +11,7 @@
 
 # 
 # #
-# puppet, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
+# puppet, 21.12.1-SNAPSHOT, SNAPSHOT20221129164121, Tue Nov 29 2022
 #
 
 unique template components/puppet/config-rpm;
@@ -20,6 +20,6 @@ unique template components/puppet/config-rpm;
 prefix '/software/components/puppet';
 
 # Install Quattor configuration module via RPM package.
-'/software/packages' = pkg_repl('ncm-puppet','21.12.1-SNAPSHOT20221129120252','noarch');
+'/software/packages' = pkg_repl('ncm-puppet','21.12.1-SNAPSHOT20221129164121','noarch');
 'dependencies/pre' ?= list('spma');
 

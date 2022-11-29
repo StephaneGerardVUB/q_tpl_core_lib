@@ -14,7 +14,7 @@
 #
 
 # #
-# ks, 21.12.1-SNAPSHOT, SNAPSHOT20221129121004, Tue Nov 29 2022
+# ks, 21.12.1-SNAPSHOT, SNAPSHOT20221129164833, Tue Nov 29 2022
 #
 
 @{Template containing the Kickstart-related configuration and default values.}

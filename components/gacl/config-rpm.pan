@@ -14,7 +14,7 @@
 #
 
 # #
-# gacl, 21.12.1-SNAPSHOT, SNAPSHOT20221129120954, Tue Nov 29 2022
+# gacl, 21.12.1-SNAPSHOT, SNAPSHOT20221129164823, Tue Nov 29 2022
 #
 
 unique template components/gacl/config-rpm;
@@ -25,6 +25,6 @@ include 'components/gacl/config-common';
 prefix '/software/components/gacl';
 
 # Install Quattor configuration module via RPM package.
-'/software/packages' = pkg_repl('ncm-gacl', '21.12.1-SNAPSHOT20221129120954', 'noarch');
+'/software/packages' = pkg_repl('ncm-gacl', '21.12.1-SNAPSHOT20221129164823', 'noarch');
 'dependencies/pre' ?= list('spma');
 

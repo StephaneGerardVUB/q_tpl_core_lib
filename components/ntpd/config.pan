@@ -20,7 +20,7 @@ include 'components/ntpd/schema';
 
 bind '/software/components/ntpd' = ntpd_component;
 
-'/software/packages' = pkg_repl('ncm-ntpd', '21.12.1-SNAPSHOT20221129120252', 'noarch');
+'/software/packages' = pkg_repl('ncm-ntpd', '21.12.1-SNAPSHOT20221129164121', 'noarch');
 
 include if_exists('components/ntpd/site-config');
 
