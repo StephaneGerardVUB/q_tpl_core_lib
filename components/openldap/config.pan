@@ -18,7 +18,7 @@ unique template components/openldap/config;
 
 include 'components/openldap/schema';
 
-'/software/packages'=pkg_repl('ncm-openldap','21.12.1-SNAPSHOT20221128153054','noarch');
+'/software/packages'=pkg_repl('ncm-openldap','21.12.1-SNAPSHOT20221129120252','noarch');
 
 prefix '/software/components/openldap';
 'dependencies/pre' ?= list ('spma');

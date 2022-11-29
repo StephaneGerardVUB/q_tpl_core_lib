@@ -11,7 +11,7 @@
 
 # 
 # #
-# ceph, 21.12.1-SNAPSHOT, SNAPSHOT20221128153054, Mon Nov 28 2022
+# ceph, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
 #
 
 unique template components/ceph/config;
@@ -27,7 +27,7 @@ prefix '/software/components/ceph';
 'active' ?= true;
 'dispatch' ?= true;
 
-'/software/packages' = pkg_repl('ncm-ceph', '21.12.1-SNAPSHOT20221128153054', 'noarch');
+'/software/packages' = pkg_repl('ncm-ceph', '21.12.1-SNAPSHOT20221129120252', 'noarch');
 'dependencies/pre' ?= list('spma', 'accounts', 'sudo', 'useraccess');
 
 bind '/software/components/ceph' = ceph_component;

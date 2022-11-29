@@ -17,7 +17,7 @@ include 'components/syslog/schema';
 
 bind '/software/components/syslog' = syslog_component;
 
-'/software/packages' = pkg_repl('ncm-syslog', '21.12.1-SNAPSHOT20221128153054', 'noarch');
+'/software/packages' = pkg_repl('ncm-syslog', '21.12.1-SNAPSHOT20221129120252', 'noarch');
 
 include if_exists('components/syslog/site-config');
 

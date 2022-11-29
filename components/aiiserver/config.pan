@@ -17,7 +17,7 @@ include 'components/aiiserver/schema';
 
 bind '/software/components/aiiserver' = aiiserver_component;
 
-'/software/packages' = pkg_repl('ncm-aiiserver', '21.12.1-SNAPSHOT20221128153054', 'noarch');
+'/software/packages' = pkg_repl('ncm-aiiserver', '21.12.1-SNAPSHOT20221129120252', 'noarch');
 
 include if_exists('components/aiiserver/site-config');
 

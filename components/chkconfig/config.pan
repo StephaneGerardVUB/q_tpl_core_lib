@@ -11,7 +11,7 @@
 
 # 
 # #
-# chkconfig, 21.12.1-SNAPSHOT, SNAPSHOT20221128153054, Mon Nov 28 2022
+# chkconfig, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
 #
 
 unique template components/chkconfig/config;
@@ -27,4 +27,4 @@ prefix '/software/components/chkconfig';
 'dependencies/pre' ?= list("spma");
 
 # Package to install
-"/software/packages" = pkg_repl("ncm-chkconfig", "21.12.1-SNAPSHOT20221128153054", "noarch");
+"/software/packages" = pkg_repl("ncm-chkconfig", "21.12.1-SNAPSHOT20221129120252", "noarch");

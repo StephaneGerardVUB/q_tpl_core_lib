@@ -14,7 +14,7 @@
 #
 
 # #
-# xrootd, 21.12.1-SNAPSHOT, SNAPSHOT20221128153755, Mon Nov 28 2022
+# xrootd, 21.12.1-SNAPSHOT, SNAPSHOT20221129120954, Tue Nov 29 2022
 #
 
 unique template components/xrootd/config;
@@ -30,6 +30,6 @@ prefix '/software/components/xrootd';
 'dispatch' ?= true;
 
 # Install Quattor configuration module via RPM package.
-'/software/packages' = pkg_repl('ncm-xrootd', '21.12.1-SNAPSHOT20221128153755', 'noarch');
+'/software/packages' = pkg_repl('ncm-xrootd', '21.12.1-SNAPSHOT20221129120954', 'noarch');
 'dependencies/pre' ?= list('spma');
 

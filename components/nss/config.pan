@@ -11,7 +11,7 @@
 
 # 
 # #
-# nss, 21.12.1-SNAPSHOT, SNAPSHOT20221128153054, Mon Nov 28 2022
+# nss, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
 #
 
 ################################################################################
@@ -25,7 +25,7 @@ include 'components/nss/schema';
 include 'pan/functions';
 
 # Package to install.
-"/software/packages" = pkg_repl("ncm-nss", "21.12.1-SNAPSHOT20221128153054", "noarch");
+"/software/packages" = pkg_repl("ncm-nss", "21.12.1-SNAPSHOT20221129120252", "noarch");
 
 # standard component settings
 prefix '/software/components/nss';

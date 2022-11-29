@@ -20,7 +20,7 @@ include 'components/grub/schema';
 
 bind '/software/components/grub' = grub_component;
 
-'/software/packages' = pkg_repl('ncm-grub', '21.12.1-SNAPSHOT20221128153054', 'noarch');
+'/software/packages' = pkg_repl('ncm-grub', '21.12.1-SNAPSHOT20221129120252', 'noarch');
 
 include if_exists('components/grub/site-config');
 

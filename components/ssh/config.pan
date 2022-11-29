@@ -11,14 +11,14 @@
 
 # 
 # #
-# ssh, 21.12.1-SNAPSHOT, SNAPSHOT20221128153054, Mon Nov 28 2022
+# ssh, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
 #
 
 unique template components/ssh/config;
 
 include 'components/ssh/schema';
 
-"/software/packages" = pkg_repl("ncm-ssh", "21.12.1-SNAPSHOT20221128153054", "noarch");
+"/software/packages" = pkg_repl("ncm-ssh", "21.12.1-SNAPSHOT20221129120252", "noarch");
 
 prefix '/software/components/ssh';
 'dependencies/pre' ?= list("spma");

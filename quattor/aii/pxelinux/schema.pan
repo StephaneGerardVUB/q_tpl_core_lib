@@ -14,7 +14,7 @@
 #
 
 # #
-# pxelinux, 21.12.1-SNAPSHOT, SNAPSHOT20221128153805, Mon Nov 28 2022
+# pxelinux, 21.12.1-SNAPSHOT, SNAPSHOT20221129121004, Tue Nov 29 2022
 #
 
 declaration template quattor/aii/pxelinux/schema;

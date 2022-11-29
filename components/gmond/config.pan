@@ -17,7 +17,7 @@ include 'components/gmond/schema';
 
 bind '/software/components/gmond' = gmond_component;
 
-'/software/packages' = pkg_repl('ncm-gmond', '21.12.1-SNAPSHOT20221128153054', 'noarch');
+'/software/packages' = pkg_repl('ncm-gmond', '21.12.1-SNAPSHOT20221129120252', 'noarch');
 
 include if_exists('components/gmond/site-config');
 

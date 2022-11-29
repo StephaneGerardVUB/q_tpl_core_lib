@@ -1,5 +1,20 @@
 # #
-# spma, 21.12.1-SNAPSHOT, SNAPSHOT20221128153054, Mon Nov 28 2022
+# Software subject to following license(s):
+#   Apache 2 License (http://www.opensource.org/licenses/apache2.0)
+#   Copyright (c) Responsible Organization
+#
+
+# #
+# Current developer(s):
+#   Luis Fernando Muñoz Mejías <Luis.Munoz@UGent.be>
+#
+
+# #
+# Author(s): Germán Cancio, Marco Emilio Poleggi, Michel Jouvin, Jan Iven, Mark R. Bannister, Jindrich Novy, James Adams
+#
+
+# #
+# spma, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
 #
 
 unique template components/spma/config;

@@ -18,7 +18,7 @@ unique template components/spma/dnf/config;
 
 prefix '/software';
 # Package to install
-'packages' = pkg_repl("ncm-spma", "21.12.1-SNAPSHOT20221128153054", "noarch");
+'packages' = pkg_repl("ncm-spma", "21.12.1-SNAPSHOT20221129120252", "noarch");
 # modules can be empty, when nothing is set
 "modules" ?= dict();
 

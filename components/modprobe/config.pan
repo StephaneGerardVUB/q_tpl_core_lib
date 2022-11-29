@@ -11,7 +11,7 @@
 
 # 
 # #
-# modprobe, 21.12.1-SNAPSHOT, SNAPSHOT20221128153054, Mon Nov 28 2022
+# modprobe, 21.12.1-SNAPSHOT, SNAPSHOT20221129120252, Tue Nov 29 2022
 #
 
 unique template components/modprobe/config;
@@ -19,7 +19,7 @@ unique template components/modprobe/config;
 include 'components/modprobe/schema';
 
 # Package to install
-"/software/packages" = pkg_repl("ncm-modprobe", "21.12.1-SNAPSHOT20221128153054", "noarch");
+"/software/packages" = pkg_repl("ncm-modprobe", "21.12.1-SNAPSHOT20221129120252", "noarch");
 
 # Set prefix to root of component configuration.
 prefix '/software/components/modprobe';

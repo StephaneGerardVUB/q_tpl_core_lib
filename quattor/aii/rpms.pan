@@ -15,11 +15,11 @@
 #
 
 # #
-# server, 21.12.1-SNAPSHOT, SNAPSHOT20221128153805, Mon Nov 28 2022
+# server, 21.12.1-SNAPSHOT, SNAPSHOT20221129121004, Tue Nov 29 2022
 #
 
 # Template adding aii-server rpm to the configuration
 
 unique template quattor/aii/rpms;
 
-"/software/packages" = pkg_repl("aii-server", "21.12.1-SNAPSHOT20221128153805", "noarch");
+"/software/packages" = pkg_repl("aii-server", "21.12.1-SNAPSHOT20221129121004", "noarch");
